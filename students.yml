@@ -1,20 +1,20 @@
 ---
 -students:
- -name:anil
- -phno:55555
- -address:hyd
+ - name:anil
+   phno:55555
+   address:hyd
     dono:7
     street:2nd
 
- -name:venil
- -phno:555555
- -address:hyd
+ - name:venil
+   phno:555555
+   address:hyd
     doorno:5
     street:2rd
 
- -name:sunil
- -phno:999999l
- -address:hyd
+ - name:sunil
+   phno:999999l
+   address:hyd
     doorno:4
     street:5th
 

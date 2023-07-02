@@ -1,0 +1,11 @@
+---
+- students :
+   - name : new
+     phno : 555
+    address : hyd
+
+   - name : sunil
+     phno : 4444
+     address : hyd
+       doorno : 4
+       street : jjj
