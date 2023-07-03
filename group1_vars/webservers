@@ -1,7 +1,4 @@
 ---
 
-[mywebservers:vars]
-key = value
-
 mywebpackonubuntu = apache22222
 mywebpackonredhat = httpd
