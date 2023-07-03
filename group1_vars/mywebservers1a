@@ -1,0 +1,7 @@
+---
+
+[mywebservers:vars]
+key = value
+
+mywebpackonubuntu = apache2
+mywebpackonredhat = httpd
