@@ -7,3 +7,13 @@
     apt : 
      name : apache2
      state : present 
+  
+  - name : i want to copy mytestfile into node side
+    copy :
+      src : mytestfile
+      dest : /home/ubuntu/mytestfile
+
+  - name : i want to copy index.js into node side
+    template :
+     src : myindex.j2
+     dest : /var/www/html/index.html
