@@ -13,13 +13,13 @@
       src : mytestfile
       dest : /home/ubuntu/mytestfile
 
-  - name : i want to copy index.js into node side
+  - name : i want to copy index.j2 into node side
     template :
      src : myindex.j2
      dest : /var/www/html/index.html
     notify : restartwebserver
 
-    handlers :
+  handlers :
   - name : restartwebserver
     service :
      name : apache2
