@@ -18,6 +18,12 @@
      src : myindex.j2
      dest : /var/www/html/index.html
     notify : restartwebserver
+  
+  - name : i want to download the internet files
+    get_url:
+     url: https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.8/bin/apache-tomcat-10.1.8.tar.gz
+     dest: /home/ubuntu/apache-tomcat-10.1.8.tar.gz
+     force_basic_auth: yes
 
   handlers :
   - name : restartwebserver
